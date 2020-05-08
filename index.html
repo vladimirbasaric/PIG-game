@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- monospace font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link type="text/css" rel="stylesheet" href="style.css" />
+
+    <title>PIG Game</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="card player-0 col-4 bg-light p1">
+                <div class="card-body">
+                    <h1 class="card-title text-center text-dark"> PLAYER 1</h1>
+                    <div class="card p-4 m-5" id="score-0">
+                        <h1 class="text-center text-danger">43</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h3 class="text-muted">Current</h3>
+                        </div>
+                        <div class="card-body text-center mt-2" id="current-0">
+                            <h2 class="text-info">11</h2>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 offset-1 text-center">
+                <button class="btn btn-info mt-5"><i class="ion-ios-plus-outline"></i>New game</button>
+                  <img  src="img/dice-5.png" alt="Dice" class="dice" />
+                  <button class="btn btn-light mt-5"><i class="ion-ios-loop"></i>Roll dice</button>
+                  <button class="btn btn-danger mt-5"><i class="ion-ios-download-outline"></i>Hold</button>
+            </div>
+    
+            <div class="card player-1 col-4 offset-1 bg-secondary p2">
+                <div class="card-body">
+                    <h1 class="card-title text-center text-dark"> PLAYER 2</h1>
+                    <div class="card p-4 m-5" id="score-1">
+                        <h1 class="text-center text-danger">72</h1>
+                    </div>
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h3 class="text-muted">Current</h3>
+                        </div>
+                        <div class="card-body text-center mt-2" id="current-1">
+                            <h2 class="text-info">0</h2>
+                        </div>     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JS -->
+    <script src="app.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
