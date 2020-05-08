@@ -9,7 +9,24 @@ body {
 
 .dice {
     height: 100px;
-    margin-top: 30vh;
+    margin-top: 35vh;
+    position: absolute;
+    left: 23%;
+}
+
+.new { 
+    top: 5vh;
+    position: sticky;
+}
+
+.roll { 
+    top: 55vh;
+    position: sticky;
+}
+
+.hold { 
+    top: 65vh;
+    position: sticky;
 }
 
 .p1,
