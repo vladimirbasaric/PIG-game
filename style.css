@@ -9,10 +9,17 @@ body {
 
 .dice {
     height: 100px;
-    margin-top: 35vh;
+    margin-top: 30vh;
     position: absolute;
     left: 23%;
+    border-radius: 5px;
 }
+
+/* removes focus around button after click */
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
 
 .new { 
     top: 5vh;
@@ -29,8 +36,8 @@ body {
     position: sticky;
 }
 
-.p1,
-.p2 {
+.player-0,
+.player-1 {
     margin-top: 15%;
 }
 
