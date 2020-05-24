@@ -10,16 +10,12 @@ body {
 .dice {
     height: 100px;
     top: 35vh;
-    left: 23%;
-    position: absolute;
+    /* left: 50vw; */
+    margin: auto;
+    position: relative;
     border-radius: 5px;
 }
 
-/* removes focus around button after click */
-.btn:focus {
-    outline: none;
-    box-shadow: none;
-  }
 
 .new { 
     top: 10vh;
@@ -39,6 +35,12 @@ body {
 .player-0,
 .player-1 {
     margin-top: 20vh;
+}
+
+/* removes focus around button after click */
+.btn:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 i {
